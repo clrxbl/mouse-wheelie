@@ -15,11 +15,11 @@ minecraft {
 
 repositories {
 	mavenLocal()
+	jcenter()
 	maven {
 		name "jitpack"
 		url "https://jitpack.io"
 	}
-	jcenter()
 	maven {
 		name "curseforge"
 		url "https://minecraft.curseforge.com/api/maven"
