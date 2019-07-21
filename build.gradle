@@ -19,6 +19,7 @@ repositories {
 		name "jitpack"
 		url "https://jitpack.io"
 	}
+	jcenter()
 	maven {
 		name "curseforge"
 		url "https://minecraft.curseforge.com/api/maven"
@@ -48,8 +49,8 @@ dependencies {
 	modImplementation "com.github.clrxbl:tweed-api:${project.tweed_version}"
 	include "com.github.clrxbl:tweed-api:${project.tweed_version}"
 
-	modImplementation "cloth-config:ClothConfig:${project.clothconfig_version}"
-	include "cloth-config:ClothConfig:${project.clothconfig_version}"
+	modImplementation "me.shedaniel.cloth:config-2:${project.clothconfig_version}"
+	include "me.shedaniel.cloth:config-2:${project.clothconfig_version}"
 }
 
 processResources {
